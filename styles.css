@@ -1,194 +1,113 @@
 /* Reset and base styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    background-color: white;
-    color: #000;
-    line-height: 1.6;
+  background-color: white;
+  color: #000;
+  line-height: 1.6;
 }
 
 /* Hero section */
 .hero-section {
-    background-color: white;
-    padding: 4rem 0;
+  background-color: white;
+  padding: 4rem 0;
 }
 
 /* Container styles */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 /* Header styles */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 /* Logo styles */
 .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-/* Profile images container */
-.profile-container {
-    position: relative;
-}
-
-/* Profile images */
-.profile-images {
-    width: 100px;
-    height: 40px;
-    background-color: #333;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.profile-images img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-
-/* Comment popup */
-.comment-popup {
-    position: absolute;
-    top: 45px;
-    right: 0;
-    width: 220px;
-    background-color: #333;
-    border-radius: 10px;
-    padding: 12px;
-    color: white;
-    display: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-}
-
-.profile-container:hover .comment-popup {
-    display: block;
-}
-
-.popup-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
-}
-
-.popup-profiles {
-    display: flex;
-    margin-right: 8px;
-}
-
-.popup-profiles img {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-right: -5px;
-}
-
-.popup-user {
-    font-weight: bold;
-    font-size: 0.9rem;
-}
-
-.popup-time {
-    color: #aaa;
-    font-weight: normal;
-}
-
-.popup-text {
-    font-size: 0.9rem;
-    margin-bottom: 8px;
-}
-
-.popup-reply {
-    font-size: 0.8rem;
-    color: #aaa;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 /* Hero content */
 .hero-content {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .hero-content p {
-    margin-bottom: 1rem;
-    font-size: 0.95rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
 }
 
 .highlight {
-    color: #4caf50;
+  color: #068b49;
+  font-weight: bold;
 }
 
 /* Content section */
 .content-section {
-    background-color: #666;
-    padding: 2rem 0;
+  background-color: #666;
+  padding: 2rem 0;
 }
 
 .content-wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background-color: white;
 }
 
 .yellow-banner {
-    background-color: #ffc107;
-    padding: 0.5rem 1.2rem;
-    margin-bottom: 1.5rem;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 0.95rem;
+  background-color: #ffc107;
+  padding: 0.5rem 1.2rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.95rem;
 }
 
 .text-container {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .text-container p {
-    margin-bottom: 1.2rem;
-    font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
 }
 
 /* Media queries for responsive design */
 @media (max-width: 1024px) {
-    /* Tablet styles */
-    .profile-container {
-        display: none;
-    }
+  /* Tablet styles */
+  .profile-container {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-    /* Mobile styles */
-    .container, .content-wrapper {
-        padding: 0 1rem;
-    }
-    
-    .hero-section {
-        padding: 2rem 0;
-    }
-    
-    .yellow-banner {
-        display: block;
-        margin-bottom: 1rem;
-        width: 100%;
-        text-align: center;
-    }
+  /* Mobile styles */
+  .container,
+  .content-wrapper {
+    padding: 0 1rem;
+  }
+
+  .hero-section {
+    padding: 2rem 0;
+  }
+
+  .yellow-banner {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+  }
 }
