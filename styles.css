@@ -15,7 +15,7 @@ body {
 /* Hero section */
 .hero-section {
   background-color: white;
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 /* Container styles */
@@ -23,6 +23,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 2rem;
+  margin-left: 300px;
 }
 
 /* Header styles */
@@ -35,8 +36,8 @@ header {
 
 /* Logo styles */
 .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 790;
 }
 
 /* Hero content */
@@ -46,7 +47,7 @@ header {
 
 .hero-content p {
   margin-bottom: 1rem;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
 }
 
 .highlight {
@@ -57,23 +58,30 @@ header {
 /* Content section */
 .content-section {
   background-color: #666;
-  padding: 2rem 0;
+  padding: 0.1rem 0;
+  border-top: solid 8px #999999;
 }
 
 .content-wrapper {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   background-color: white;
+  border-bottom: solid 8px #999999;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .yellow-banner {
   background-color: #ffc107;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1.5rem;
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
   display: inline-block;
   font-weight: bold;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
+  border-bottom: solid 8px #cc9900;
+  margin-left: -40px;
 }
 
 .text-container {
@@ -81,8 +89,10 @@ header {
 }
 
 .text-container p {
-  margin-bottom: 1.2rem;
-  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
 }
 
 /* Media queries for responsive design */
